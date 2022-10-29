@@ -134,7 +134,7 @@ Header Section Start
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background-color: rgba(255, 255, 255, 1);
   padding-top: 0;
   padding-bottom: 0;
@@ -975,7 +975,7 @@ Media Queries Section
   .mobile-navbar-btn {
     display: block;
     /* background-color: #212529; */
-    z-index: 99999;
+    z-index: 8;
     /* border: 3px solid #212529; */
     font-size: 5em;
     color: #212529;
@@ -1023,7 +1023,7 @@ Media Queries Section
     visibility: visible;
     pointer-events: auto;
     transform: translateX(0);
-    z-index: 9999;
+    z-index: 4;
   }
 
   .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
